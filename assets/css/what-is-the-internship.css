@@ -1,0 +1,35 @@
+.fs-20{
+  font-size:20px;
+}
+.text-blue{
+  color:#084482 !important;
+
+}
+.border-blue{
+  border:2px solid #084482 !important;
+}
+.background-blue{
+background-color:#084482;
+}
+.about{
+  background-color: #084482;
+  opacity:0.93;
+}
+@media(max-width:700px){
+  .fs-20{
+    font-size:18px;
+  }
+  .row{
+    margin-right:0 !important;
+    margin-left:0 !important;
+  }
+ .feature.border-right{
+   border-right:none !important;
+ }
+}
+@media(max-width:600px){
+  nav img{
+    width:180px;
+
+  }
+}

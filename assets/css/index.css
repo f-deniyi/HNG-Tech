@@ -1,0 +1,44 @@
+main {
+  background:#abd7ee7c url('../img/office-setting.svg');
+  background-position: bottom right;
+  background-size:50%;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+.container-h-75,.row-h-75{
+  height:75vh;
+}
+/* #top-navbar{
+  background-color: transparent;
+} */
+.hero{
+  height: 100vh;
+}
+.hero-text{
+  color:#084482;
+}
+.nav-link{
+  color:#084482 !important;
+}
+.btn-blue{
+  background-color:#084482 !important;
+  color:white !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+
+}
+.hero-top-text{
+  font-size:48px;
+  line-height:70px;
+  font-weight:700;
+
+}
+.hero-mid-text{
+  font-size:36px;
+}
+.hero-below-text{
+  font-size:20px;
+}
+#top-navbar-transparent{
+  background-color: transparent;
+}

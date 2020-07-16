@@ -77,6 +77,11 @@
   margin-top: 3px;
   margin-left: 10px;
 }
+@media(max-width:900px){
+  .d-grid{
+    grid-template-columns: auto auto;
+  }
+}
 @media(max-width:700px){
   .d-grid{
     grid-template-columns: auto;
@@ -85,13 +90,30 @@
     display:unset !important
   }
   .card-img-top img{
-    width: 45vh;
+    width: 50vh;
     height: 170px;
   }
-  .container{
+  .companies{
+    margin:auto !important;
     width:85%!important;
+  }
+  .company-text.p-4{
+    padding:0 !important;
   }
   .company-profile .big-image img{
     width:270px !important;
+  }
+  .company-profile img{
+    /* width:300px; */
+    max-width:130px;
+  }
+}
+@media(max-width:600px){
+  nav img{
+    width:180px;
+  }
+  .company-profile img{
+    /* width:300px; */
+    max-width:100px;
   }
 }
