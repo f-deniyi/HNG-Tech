@@ -1,0 +1,1 @@
+<?php header( 'Location: /what-is-the-internship.html' ) ;  ?>
