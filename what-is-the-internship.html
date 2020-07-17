@@ -13,11 +13,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
     rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <title>About</title>
 </head>
 
 <body>
-  <nav id="top-navbar" class="navbar nav-fill  navbar-expand-lg navbar-light text-dark shadow fixed-top p-3">
+  <nav id="top-navbar" class="navbar nav-fill  navbar-expand-lg navbar-light text-dark  fixed-top p-3">
     <div class="container">
       <a href="./index.html" class="navbar-brand">
         <img src='./assets/img/brand-logo.png' class='img-fluid feature-image' width='220' height='220'>
@@ -48,14 +49,28 @@
       </div>
     </div>
   </nav>
+  <section class='hero-section my-5 pt-5'>
+    <div class="container">
+      <h1 class='text-blue text-center py-4'>What is the internship ?</h1>
+      <div class="d-md-flex align-items-center justify-content-center">
+        <div class="mr-auto">
+          <img src="./assets/img/header.png" alt="" class='my-3 img-fluid'>
+        </div>
+        <div class="">
+          <h1 class='text-blue'>We find the most talented African developers</h1>
+          <p class='fs-20'> . . .and give them the opportunity to excel.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class='my-5 pt-5'>
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-5  aos-init aos-animate " data-aos="fade-right" data-aos-delay="100">
           <img src="./assets/img/homepage.png" class='img-fluid' alt="">
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7   aos-init aos-animate " data-aos="fade-left" data-aos-delay="100">
           <h1 class='text-blue'>Building talents across the continent</h1>
           <p class='fs-20'>The HNG internship is a 3-month remote internship designed to find and develop the most talented software
             developers.</p>
@@ -67,7 +82,6 @@
               software. The finalists are connected to the best companies in the tech ecosystem and get full time jobs and
               contracts immediately.
             </p>
-          
         </div>
       </div>
     </div>
@@ -207,6 +221,7 @@
 
 
   <!-- JS, Popper.js, and jQuery -->
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script src='./assets/script.js'></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
