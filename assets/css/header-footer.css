@@ -8,7 +8,7 @@ font-weight:600;
 color:white !important;
 position:relative;
 }
-.nav-link.active{
+.nav-link.active,.nav-link.current{
   color:#24116a !important;
 }
 .nav-link:hover{
