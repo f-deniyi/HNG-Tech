@@ -1,9 +1,14 @@
+.hero-section {
+  background: linear-gradient(#cde4f0, #fff), url('../img/headerillustrtaion.png');
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .fs-20{
   font-size:20px;
 }
 .text-blue{
   color:#084482 !important;
-
 }
 .border-blue{
   border:2px solid #084482 !important;

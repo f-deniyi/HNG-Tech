@@ -26,13 +26,27 @@ position:relative;
   background:linear-gradient(#084482, #5a95b4, #084482) ;
   font-size:20px;
 }
-@media(max-width:700px){
+
+@media(max-width:991px) {
   .nav-link.active::before{
-    content: '';
-    position: absolute;
     top: 40px;
-    width: 52%;
-    height: 3px;
-    background-color: #24116a;
+    width: 20%;
+  }
+}
+
+
+
+
+
+@media(max-width:760px){
+  .nav-link.active::before{
+    top: 40px;
+    width: 29%;
+  }
+}
+@media(max-width:500px){
+  .nav-link.active::before{
+    top: 40px;
+    width: 42%;
   }
 }

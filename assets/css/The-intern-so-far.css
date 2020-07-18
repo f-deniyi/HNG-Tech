@@ -1,34 +1,39 @@
-.header-top-text{
-  color:#084482;
-  font-size:36px;
-  font-weight:400;
-}
-.header-below-text{
-  color:#084482;
-  font-size:20px;
-}
-.company-profile img{
-  /* width:300px; */
-  max-width:300px;
-}
-.intern-picture{
-  max-width:250px;
-}
-.company-profile .big-image img{
-  width:200px !important;
-}
-.d-grid{
-  display:grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap:2em;
+.header-top-text {
+  color: #084482;
+  font-size: 36px;
+  font-weight: 400;
 }
 
-.company-text{
-  font-size:20px;
+.header-below-text {
+  color: #084482;
+  font-size: 20px;
+}
+
+.company-profile img {
+  /* width:300px; */
+  max-width: 300px;
+}
+
+.intern-picture {
+  max-width: 250px;
+}
+
+.company-profile .big-image img {
+  width: 200px !important;
+}
+
+.d-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2em;
+}
+
+.company-text {
+  font-size: 20px;
 }
 
 .company-logo:before, .company-logo:after {
-  background-color:#084482 ;
+  background-color: #084482;
   content: '';
   display: inline-block;
   height: 3px;
@@ -38,7 +43,7 @@
   width: 22%;
 }
 
-.company-logo:before  {
+.company-logo:before {
   margin-right: 0.5em;
 }
 
@@ -77,9 +82,44 @@
   margin-top: 3px;
   margin-left: 10px;
 }
-@media(max-width:900px){
-  .d-grid{
+
+@media(max-width:900px) {
+  .d-grid {
     grid-template-columns: auto auto;
+  }
+}
+
+@media(max-width:600px) {
+  nav img {
+    width: 180px;
+  }
+  .company-profile img {
+    /* width:300px; */
+    max-width: 100px;
+  }
+}
+
+@media(max-width:1000px) {
+  .d-grid {
+    grid-template-columns: auto auto auto;
+  }
+  .card-img-top img {
+    width: 55vh;
+    height: 170px;
+  }
+}
+
+@media(max-width:800px) {
+  .d-grid {
+    grid-template-columns: auto auto;
+  }
+  .card-img-top img {
+    width: 55vh;
+    height: 170px;
+  }
+  .company-profile img{
+    /* width:300px; */
+    max-width:130px;
   }
 }
 @media(max-width:700px){
@@ -90,7 +130,7 @@
     display:unset !important
   }
   .card-img-top img{
-    width: 50vh;
+    width: 60vh;
     height: 170px;
   }
   .companies{
@@ -106,14 +146,5 @@
   .company-profile img{
     /* width:300px; */
     max-width:130px;
-  }
-}
-@media(max-width:600px){
-  nav img{
-    width:180px;
-  }
-  .company-profile img{
-    /* width:300px; */
-    max-width:100px;
   }
 }
